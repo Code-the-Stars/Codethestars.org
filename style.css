@@ -1,0 +1,116 @@
+/*
+TODO: WORK ON FLEXIBITITY ON WEBSITE AND MAKE IT RESPONSIVE TO DIFFERENT SIZES USING FLEX: GROW AND FLEX: SHRINK
+MAKE BUTTONS LINK USING JS TO DIFFERENT PAGES
+MAKE COOL LOGO ANIMATION
+*/
+* {
+    margin: 0;
+    padding: 0;
+font-family: 'Roboto', sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    background-color: #0c0430;
+}
+#nav {
+    display: flex;
+    justify-content:space-around;
+    background-color: #0f0f3c;
+    padding: 10px;
+    margin: 0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#homeButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1b1b74;
+    color: rgb(237, 240, 255);
+    font-size: 15px;
+}
+#aboutButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1b1b74;;
+    color: rgb(237, 240, 255);
+    font-size: 15px;
+}
+#contactButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1b1b74;;
+    color: rgb(237, 240, 255);
+    font-size: 15px;
+}
+#signupButton {
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(237, 240, 255);
+    font-size: 14px;
+    background-color: #1a1a56;
+    border-radius: 10px;
+}
+#loginButton {
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(237, 240, 255);
+    font-size: 14px;
+    background-color: #1a1a56;
+    border-radius: 10px;
+}
+#logo {
+    height:70px;
+    width:70px;
+    margin-left: 0px;
+}
+#heroSection {
+    color:white;
+    background-image: url(/wallpaper.png);
+    height: 550px;
+}
+#heroButton {
+    display:flex;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(237, 240, 255);
+    font-size: 14px;
+    background-color: #1a1a56;
+    border-radius: 10px;
+}
+/*
+cool text styles
+    background-image: linear-gradient(to bottom right,#0000ff, #ff0000ac);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    */
