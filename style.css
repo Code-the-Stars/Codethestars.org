@@ -1,116 +1,52 @@
-/*
-TODO: WORK ON FLEXIBITITY ON WEBSITE AND MAKE IT RESPONSIVE TO DIFFERENT SIZES USING FLEX: GROW AND FLEX: SHRINK
-MAKE BUTTONS LINK USING JS TO DIFFERENT PAGES
-MAKE COOL LOGO ANIMATION
-*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*NavBar*/
 * {
-    margin: 0;
-    padding: 0;
-font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(18, 23, 42);
+}
 
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
-body{
-    min-height: 100vh;
-    background-color: #0c0430;
-}
-#nav {
+header {
     display: flex;
-    justify-content:space-around;
-    background-color: #0f0f3c;
-    padding: 10px;
-    margin: 0%;
-    display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-decoration: none;
-}
-#homeButton {
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #1b1b74;
-    color: rgb(237, 240, 255);
-    font-size: 15px;
-}
-#aboutButton {
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #1b1b74;;
-    color: rgb(237, 240, 255);
-    font-size: 15px;
-}
-#contactButton {
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #1b1b74;;
-    color: rgb(237, 240, 255);
-    font-size: 15px;
-}
-#signupButton {
-    padding: 10px 10px;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-    color: rgb(237, 240, 255);
-    font-size: 14px;
-    background-color: #1a1a56;
-    border-radius: 10px;
-}
-#loginButton {
-    padding: 10px 10px;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-    color: rgb(237, 240, 255);
-    font-size: 14px;
-    background-color: #1a1a56;
-    border-radius: 10px;
+    padding: 30px 10%;
 }
 #logo {
-    height:70px;
-    width:70px;
-    margin-left: 0px;
-}
-#heroSection {
-    color:white;
-    background-image: url(/wallpaper.png);
-    height: 550px;
-}
-#heroButton {
-    display:flex;
-    text-decoration: none;
-    font-size: 20px;
+    height: 50px;
     cursor: pointer;
-    color: rgb(237, 240, 255);
-    font-size: 14px;
-    background-color: #1a1a56;
-    border-radius: 10px;
 }
-/*
-cool text styles
-    background-image: linear-gradient(to bottom right,#0000ff, #ff0000ac);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    */
+.nav__links li {
+    list-style: none;
+}
+.nav__links li {
+    display: inline;
+    padding: 0 20px;
+} 
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color:rgba(0, 136, 169, 0.8);
+}
+/*End Navbar*/
